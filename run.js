@@ -567,7 +567,7 @@ const headerBox = blessed.box({
   style: { fg: "white", bg: "default" }
 });
 
-figlet.text("ANAM".toUpperCase(), { font: "ANSI Shadow" }, (err, data) => {
+figlet.text("ANONIM".toUpperCase(), { font: "ANSI Shadow" }, (err, data) => {
   if (err) headerBox.setContent("{center}{bold}NT EXHAUST{/bold}{/center}");
   else headerBox.setContent(`{center}{bold}{bright-cyan-fg}${data}{/bright-cyan-fg}{/bold}{/center}`);
   safeRender();
